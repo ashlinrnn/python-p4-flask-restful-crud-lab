@@ -70,7 +70,7 @@ class PlantByID(Resource):
         db.session.delete(plant)
         db.session.commit()
 
-        # Return empty string with 204 status code per requirements
+        
         return make_response("", 204)
 
 
